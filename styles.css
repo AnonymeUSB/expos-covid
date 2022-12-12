@@ -46,3 +46,22 @@ body {
 #d3 {
     background-color: lightgreen;
 }
+
+#arrows_container {
+    position: absolute;
+    width: 100%;
+    top: 88%;
+    text-align: center;
+}
+
+.arrows {
+    width: 75px;
+    height: 75px;
+    border-radius: 30%;
+    background-color: rgb(24, 24, 24);
+    transition: background-color 0.5s;
+}
+
+.arrows:hover {
+    background-color: rgb(60, 60, 60);
+}
