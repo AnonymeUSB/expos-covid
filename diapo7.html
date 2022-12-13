@@ -1,0 +1,27 @@
+<!-- Made by NULL -->
+
+<html>
+    <head>
+        <title>Exposé Covid 19</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="window">
+            <div id="tree_dots">
+                <div class="dots" id="d1" onclick="f1()">&nbsp;</div>
+                <div class="dots" id="d2">&nbsp;</div>
+                <div class="dots" id="d3">&nbsp;</div>
+            </div>
+            <video class="fond" muted loop autoplay src="./videos/1063037653-preview.mp4"></video>
+            <div id="arrows_container">
+                <a href="diapo6.html"><img src="./logos/left.png" id="left" class="arrows"></a>
+                <a href="diapo8.html"><img src="./logos/right.png" id="right" class="arrows"></a>
+            </div>
+        </div>
+        <script>
+            function f1() {
+                        window.open("https://dashboard.covid19.data.gouv.fr/vue-d-ensemble?location=FRA", "Miro", "menubar=no, status=no, scrollbars=no, menubar=no, width=3000, height=3000, left=0")
+            }
+        </script>
+        </body>
+</html>

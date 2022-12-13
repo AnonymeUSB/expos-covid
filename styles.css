@@ -37,14 +37,17 @@ body {
 
 #d1 {
     background-color: crimson;
+    cursor: pointer;
 }
 
 #d2 {
     background-color: yellow;
+    cursor: pointer;
 }
 
 #d3 {
     background-color: lightgreen;
+    cursor: pointer;
 }
 
 #arrows_container {
